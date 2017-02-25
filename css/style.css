@@ -588,6 +588,8 @@ form textarea:focus {
 */
 #home {
   background-image: url(../img/background1.jpg);
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: multiply;
   background-size: cover;
   text-align: center;
   z-index: 99;
@@ -631,7 +633,7 @@ form textarea:focus {
 }
 #home .profil h1 {
   font-size: 3.5rem;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   background-color: #2FC5CC;
   color: #F4F7F7;
   text-shadow: 0.25rem 0.25rem #0e393b;
@@ -646,9 +648,9 @@ form textarea:focus {
   color: #F4F7F7;
   padding: 0.3125rem 1.25rem;
   text-decoration: none;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Cabin', sans-serif;
   overflow: hidden;
-  font-size: 20px;
+  font-size: 23px;
 }
 @media screen and (max-width: 1023px) {
   #home .profil h1 {
@@ -664,9 +666,10 @@ form textarea:focus {
 #home .profil p u {
   display: inline-block;
   color: #F4F7F7;
-  background-color: #000;
+  background-color: #516F75;
   padding: 0.3125rem 1.25rem;
   text-decoration: none;
+  margin-bottom: 15px;
 }
 
 /*
