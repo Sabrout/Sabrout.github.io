@@ -372,6 +372,7 @@ form textarea:focus {
 .section .section-container {
   position: relative;
   top: 45%;
+  /*width: 100%;*/
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -710,7 +711,7 @@ form textarea:focus {
 }
 #about .skills {
   position: relative;
-  max-width: 34.375rem;
+  max-width: 57rem;
   margin-left: auto;
   margin-right: auto;
   padding: 0 1rem;
@@ -720,18 +721,20 @@ form textarea:focus {
   content: "";
   display: table;
 }
-#about .skills h2 {
+#about .skills h1 {
   background-color: #2FC5CC;
+  color: #fff;
   display: inline-block;
   padding: 0 0.9375rem;
 }
 #about .skills ul {
   text-align: center;
+  width: 90%;
 }
 #about .skills ul li {
   position: relative;
   display: inline-block;
-  width: 15.625rem;
+  width: 9.625rem;
   margin-bottom: 25.6px;
 }
 #about .skills ul li:last-child {
@@ -750,7 +753,7 @@ form textarea:focus {
 #about .skills ul li .lvl-1 li {
   position: relative;
   display: inline-block;
-  width: 15rem;
+  width: 10rem;
   background-color: #0e393b;
   padding: 0.625rem;
   margin-bottom: 0.625rem;
