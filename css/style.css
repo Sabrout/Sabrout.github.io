@@ -815,7 +815,7 @@ form textarea:focus {
 }
 #portfolio .thumbnails {
   position: relative;
-  max-width: 34.375rem;
+  max-width: 64.375rem;
   margin-left: auto;
   margin-right: auto;
   padding: 0 1rem;
@@ -828,6 +828,7 @@ form textarea:focus {
 #portfolio .thumbnails ul li {
   position: relative;
   display: inline-block;
+  margin: 10px 10px 10px 10px;
 }
 #portfolio .thumbnails ul li a {
   position: relative;
