@@ -150,7 +150,7 @@ Letter.prototype.render = function( char ) {
   
 };
 
-var word = ["DEVELOPER", "SOFTWARE ENGINEER", "DATA SCIENTIST", "AI RESEARCHER", "KEEP STARING" ];
+var word = ["DEVELOPER", "DATA SCIENTIST", "AI RESEARCHER", "KEEP STARING" ];
 var nextWord = 1;
 
 var letters = new Letters();
